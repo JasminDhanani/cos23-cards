@@ -1,33 +1,152 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <title>@@MyName@@’s Card</title>
-    <style>
-      /* Styling */
-    </style>
-  </head>
-  </head>
-  <body>
-    <header>
-      <h1>@@MyName</h1>
-    </header>
-    <main>
-      <section aria-labelledby="bio-heading">
-        <h2 id="bio-heading">Bio</h2>
-        <p>@@About Me@@</p>
-      </section>
-      <section aria-labelledby="hobbies-heading">
-        <h2 id="hobbies-heading">Hobbies</h2>
-        @@My Hobbies@@
-      </section>
-      <section aria-labelledby="workxp-heading">
-        <h2 id="workxp-heading">Work Experience</h2>
-        @@My Work Experience@@
-      </section>
-    </main>
-    <script>
-      /* Scripting */
-    </script>
-  </body>
+<head>
+  <meta charset="utf-8">
+  <title>Georgiana's Card</title>
+  <style>
+    body {
+      font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      background-color: #fff;
+      color: #333;
+    }
+
+    header {
+      background-color: #0e0e0e;
+      padding: 20px;
+      text-align: center;
+      color: #fff;
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 2em;
+    }
+
+    header img {
+      max-width: 100%;
+      height: auto;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+
+    main {
+      max-width: 800px;
+      margin: 20px auto;
+      padding: 20px;
+      background-color: #fff;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+      border-radius: 10px;
+    }
+
+    section {
+      margin-bottom: 30px;
+    }
+
+    h2 {
+      color: #0e0e0e;
+      margin-bottom: 15px;
+      font-family: 'Arial', sans-serif;
+      font-size: 1.5em;
+    }
+
+    p {
+      line-height: 1.6;
+      color: #666;
+      font-size: 16px;
+    }
+
+    h3 b {
+      font-weight: bold;
+      color: #1e90ff;
+      font-size: 1.2em;
+    }
+
+    ul {
+      list-style: none;
+      padding: 0;
+    }
+
+    li {
+      margin-bottom: 8px;
+      color: #0e0e0e;
+    }
+
+    .buttons {
+      display: flex;
+      justify-content: space-between;
+      margin-top: 30px;
+    }
+
+    .btn-back,
+    .btn-next {
+      padding: 10px 20px;
+      cursor: pointer;
+      background-color: #0e0e0e;
+      color: #fff;
+      border: none;
+      border-radius: 5px;
+      transition: background-color 0.3s ease;
+      font-size: 16px;
+    }
+
+    .btn-back:disabled,
+    .btn-next:disabled {
+      background-color: #666;
+      cursor: not-allowed;
+    }
+
+    .btn-back:hover,
+    .btn-next:hover {
+      background-color: #333;
+    }
+
+    a {
+      color: #1e90ff;
+      text-decoration: underline;
+      font-size: 16px;
+    }
+
+    a:hover {
+      color: #0d47a1;
+      text-decoration: none;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Georgiana</h1>
+    <img src="IMG_20230802_141732.jpg" width="20%" height="30%" alt="IMG_20230802_141732">
+  </header>
+  <main>
+    <section aria-labelledby="bio-heading">
+      <h2 id="bio-heading">Bio</h2>
+      <p>'I'd like to take a minute Just sit right there' and tell you how I came to content strategy.</p>
+      <h3><b>Crafting the perfect story for end users is key in connecting with users.</b></h3>With my expertise in crafting user-centric stories and solving content issues, I create user guides, knowledge base articles, UX writing, and microcopies to place the user at the center of any creation. To enhance my ability to craft exceptional user experiences, I am obtaining a Masters in Content Strategy. In addition to using storytelling techniques, I also have a deep understanding of content strategy, making it possible for me to help businesses connect meaningfully with their target audience.
+    </section>
+    <section aria-labelledby="hobbies-heading">
+      <h2 id="hobbies-heading">Hobbies</h2>
+      <ul>
+        <li>Cycling</li>
+        <li>Reading</li>
+        <li>Travelling</li>
+      </ul>
+    </section>
+    <section aria-labelledby="workxp-heading">
+      <h2 id="workxp-heading">Work Experience</h2>
+      <ul>
+        <li>Content and Licensing Assistant</li>
+        <li>Content Designer</li>
+      </ul>
+    </section>
+
+    <!-- Contact Details -->
+    <section aria-labelledby="contact-heading">
+      <h2 id="contact-heading">Contact Details</h2>
+      <p>You can connect with me on <a href="www.linkedin.com/in/georgiana-fitzjohn" target="_blank">LinkedIn</a>.</p>
+    </section>
+  </main>
+</body>
 </html>

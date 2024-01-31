@@ -1,33 +1,227 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <title>@@MyName@@’s Card</title>
-    <style>
-      /* Styling */
-    </style>
-  </head>
-  </head>
-  <body>
-    <header>
-      <h1>@@MyName</h1>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+  <meta name="description" content="Aneta Pawlik - My portfolio">
+  <meta name="author" content="Aneta Pawlik">
+  <title>Aneta Pawlik - My portfolio</title>
+  <link href="images/favicon.ico" rel="icon" type="image/x-icon">
+  <!-- CSS Stylesheet -->
+  <link rel="stylesheet" href="styles/styles.css">
+  <!-- Fonts -->
+  <link rel="stylesheet" href="assets/fontawesome/css/all.min.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=ABeeZee:ital@0;1&family=Silkscreen&display=swap" rel="stylesheet">
+</head>
+<body>
+  <!--Primary Navigation -->
+  <nav id="top">
+    <div id="nav-logo">
+      <p id="logo">Aneta Pawlik</p>
+    </div>
+        <ul id="nav-links-box">
+          <li class="nav-item-container1"><a href="#bio-container">Bio</a></li>
+          <li class="nav-item-container1"><a href="#skills">Skills</a></li>
+          <li class="nav-item-container1"><a href="#work-section">Work</a></li>
+          <li class="nav-item-container1"><a href="#education-container">Education</a></li>
+          <li class="nav-item-container1"><a href="#contact-me">Contact</a></li>
+        </ul>
+    </nav>
+  <!-- Hero header -->
+  <header>
+      <div id="header-container">
+        <h1>Hi! My name is Aneta<sup>(she/her)</sup></h1>
+        <h2 class="subtitle">Welcome to my HTML/CSS project website, where I tried to wrangle my beginner coding skills to share a little bit about my experience and projects in marketing.</h2>
+      </div>
     </header>
-    <main>
-      <section aria-labelledby="bio-heading">
-        <h2 id="bio-heading">Bio</h2>
-        <p>@@About Me@@</p>
-      </section>
-      <section aria-labelledby="hobbies-heading">
-        <h2 id="hobbies-heading">Hobbies</h2>
-        @@My Hobbies@@
-      </section>
-      <section aria-labelledby="workxp-heading">
-        <h2 id="workxp-heading">Work Experience</h2>
-        @@My Work Experience@@
-      </section>
-    </main>
-    <script>
-      /* Scripting */
-    </script>
-  </body>
+  <!-- Main content between Header and Footer -->
+  <main>
+    <section id="bio">
+      <div id="bio-container">
+        <div id="bio-column1"><h2>Bio</h2></div>
+        <div id="bio-column2"><p>I am a marketing professional with over 13 years of experience in marketing strategy and content marketing. In the last couple of years, I have been mainly focusing on content creation for digital channels, SEO, and data analytics. I am currently studying for a master's degree in <a href="https://www.fh-joanneum.at/content-strategie-und-digitale-kommunikation/master/en/programme/" target="_blank" class="external-link">Content Strategy</a> at FH Joanneum. Once completed (2025), I look to transition to a marketing operations-focused role.</p></div>
+        <div id="bio-column3"><p><strong>Fun fact!</strong>The first money I earned off content creation? I was in secondary school. I came up with the idea of drawing Pokémon made to order and colouring them in with pencils. Unfortunately, my so-called “friend” set up a competing business and coloured her Pokémon drawings with permanent markers. The quality was much better, and she also scaled her production (younger brother). I had to shut down the store after only three commissions.</p></div>
+      </div>
+      <div id="quickfacts-outer-container">
+        <h2>If I were to write about myself on post-its...</h2>
+          <div id="quickfacts-cards">
+            <p class="card1">I am based in Vienna, Austria.</p>
+            <p class="card2">My name is pronounced ah-neh-tah.</p> 
+            <p class="card2">I worked in England, Slovakia, and Austria.</p>
+            <p class="card3" > I am a coffee addict.</p>
+            <p class="card2">I like creating - writing, taking photos, and cooking.</p>
+            <p class="card2">I am a committed lifelong learner.</p>
+          </div>
+      </div>
+    </section>
+    <section id="skills">
+    <div id="skills-outer-container">
+        <div id="skills-top-section">
+          <h2>Top Skills</h2>
+        </div>
+        <div id="skills-bottom-section">
+          <div id="skills-grid">
+            <div id="skillscolumn1">
+              <div id="skills1row1">
+                <i class="fa-solid fa-pen"></i>  
+                <p>(Copy)Writing</p>
+              </div>
+              <div id="skills1row2">
+                <i class="fa-solid fa-wand-magic-sparkles"></i>
+                <p>Graphic Design for Digital Channels</p>
+              </div>
+              <div id="skills1row3">
+                  <i class="fa-solid fa-wrench"></i>
+                  <p>On-Page SEO</p>
+                </div>
+            </div>
+          <div id="skillscolumn2">
+            <div id="skill21row1">
+                <i class="fa-solid fa-camera-retro"></i>
+                <p>Photography</p>
+            </div>
+            <div id="skills2row2">
+                <i class="fa-solid fa-gears"></i>
+                <p>Project Management</p>
+            </div>
+            <div id="skills2row3">  
+                <i class="fa-regular fa-window-restore"></i>
+                <p>WordPress Websites & Landing Pages</p>
+            </div>
+          </div>
+      </div>
+    </div>
+    </div>
+  </section>
+  <section id="work">
+        <div class="gradient-text-section">
+            <h2 id="workexperience1">Work Experience</h2>
+            <p id="workexperience2">Work Experience</p>
+            <p id="workexperience3">Work Experience</p>
+            <p id="workexperience4">Work Experience</p>
+            <p id="workexperience5">Work Experience</p>
+            <p>Work Experience</p>
+          </div>
+        <div id="experience-container"> 
+            <div class="work-experience-entry">
+              <p class="date"><i>October 2023 - present</i></p>
+              <p>Bildungskarenz - Master's in Content Strategy at FH Joanneum Graz, Austria</p>
+            </div>
+            <div class="work-experience-entry">
+              <p class="date"><i>March 2023 - October 2023</i></p>
+              <p>Marketing Communications Manager at Female Founders, Austria</p>
+            </div>
+            <div class="work-experience-entry">
+              <p class="date"><i>July 2022 - February 2023</i></p>
+              <p>SEO and Content Manager at HENSOLDT Analytics, Austria</p>
+            </div>
+            <div class="work-experience-entry">
+              <p class="date"><i>May 2021 - July 2022</i></p>
+              <p>Social Media Manager at HENSOLDT Analytics, Austria</p>
+            </div>
+            <div class="work-experience-entry">
+              <p class="date"><i>December 2020 - April 2021</i></p>
+              <p>Professional Break</p>
+            </div>  
+            <div class="work-experience-entry">
+              <p class="date"><i>April 2020 - November 2020</i></p>
+              <p>Content Marketing and SEO Manager at Impact Hub Vienna, Austria</p>
+            </div>
+            <div class="work-experience-entry">
+              <p class="date"><i>March 2016 - October 2020</i></p>
+              <p>Content Marketing Consultant, Austria</p>
+            </div>
+            <div class="work-experience-entry">
+              <p class="date"><i>December 2019 - February 2020</i></p>
+              <p>Interim Comms Lead at Impact Hub Vienna, Austria</p>
+            </div>
+            <div class="work-experience-entry">
+              <p class="date"><i>September 2017 - November 2017</i></p>
+              <p>Communications and Marketing Manager at ISWA, Austria</p>
+            </div>
+            <div class="work-experience-entry">
+              <p class="date"><i>November 2014 - June 2015</i></p>
+              <p>Marketing Manager at Fleming Europe, Slovakia</p>
+            </div>
+            <div class="work-experience-entry">
+              <p class="date"><i>January 2014 - October 2014</i></p>
+              <p>Marketing Assistant at Print Power Europe, England</p>
+            </div>
+            <div class="work-experience-entry">
+              <p class="date"><i>September 2013 - December 2013</i></p>
+              <p>Junior Conference Manager at InForm Slovakia, Slovakia</p>
+            </div>
+            <div class="work-experience-entry">
+            <p class="date"><i>January 2013 - September 2013</i></p>
+            <p>Category Coordinator at Avon, England</p>
+          </div>
+          <div class="work-experience-entry-last">
+            <p class="date"><i>June 2010 - July 2012</i></p>
+            <p>Marketing intern at: the University of Northampton, MyBetShare</p>
+          </div>
+        </div>
+  </section>
+    <section>
+      
+        <div class="gradient-text-section">
+          <h2 id="education-header">Education</h2>
+          <p id="education1">Education</p>
+          <p id="education2">Education</p>
+          <p id="education3">Education</p>
+          <p id="education4">Education</p>
+          <p id="education5">Education</p>
+          <p id="education6">Education</p>
+          <p id="education7">Education</p>
+        </div>
+        <div id="education-container">
+          <div class="education-entry">
+              <p><i>October 2023 - October 2025</i></p>
+              <p>MA Content Strategy at FH Joanneum, Graz</p>
+            </div>
+            <div class="education-entry-last">
+              <p><i>September 2009 - May 2012</i></p>
+              <p>BA Advertising and PR at the University of Northampton, England</p>
+            </div>
+          </div>
+        </div>
+    </section>
+    <section>
+      <div id="contact-me">
+        <div class="pixel-container">
+            <img id="original" src="images/Aneta_Pawlik_BW.jpg" alt="Aneta Pawlik's photo in black and white">
+            <img id="pixelated" src="images/Aneta_Pawlik_BW20.jpg" >
+        </div>
+        <h2 id="letsconnect">Let's Connect</h2>
+        <p>Visit my website to find out more about what I am up to now - <a href="https://www.anetakpawlik.eu/" target="_blank" class="external-link">www.anetakpawlik.eu</a></p>
+        <p>You can also reach out on <a href="https://www.linkedin.com/in/anetapawlik/" target="_blank" class="external-link">LinkedIn</a>.</p>
+      </div>
+    </section>
+  </main>
+  <!-- Footer -->
+    <footer>
+      <div id="footer-text">
+        <p>This one-page business card was designed as part of the "Digital Publication Platforms" course assignment at FH Joanneum Graz. You can view a list of all the tools, guides, and resources I used to learn to code <a href="https://www.anetakpawlik.eu/?p=5442" target="blank" class="resources-link" title="Link to Aneta's blog with coding resources">on my website.</a></p>
+      </div>  
+      <div id="copyright-container">
+          <div id="copyright">
+            <p id="copyright-text"><span>Made with a lot of &#128557; © <script>document.write( new Date().getFullYear() );</script> Aneta Pawlik</span></p>
+          </div>
+          <div id="footer-socialmedia">
+            <a href="#top" id="scrollback">Go back to top</a>  
+            <a href="https://www.linkedin.com/in/anetapawlik/" target="blank" title="Link to Aneta's LinkedIn profile"><i class="fa-brands fa-linkedin"></i></a>
+            <a href=" https://www.goodreads.com/drinking_tea" target="blank" title="Link to Aneta's Goodreads profile"><i class="fa-brands fa-goodreads-g"></i></a>
+            <a href="https://www.anetakpawlik.eu/" target="blank" title="Link to Aneta's personal website"><i class="fa-brands fa-wordpress-simple"></i></a> 
+          </div>
+        </div>
+    </footer>
+      <!-- Media query min -->
+      <div id="media-query-hidden">
+        <h1> I am sorry but this website is not optimised for viewing on screens smaller than 1300px in width :(</h1>
+        <p>I did not have it in me to build a responsive website (yet).</p> 
+        <img src="https://media.giphy.com/media/ahclbUxhREY6ufL5QQ/giphy.gif">
+        <p id="copyright">Made with a lot of 😭 © 2023 Aneta Pawlik</p>
+      </div>
+</body>
 </html>
